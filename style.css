@@ -1,0 +1,51 @@
+body {
+  margin: 0;
+  font-family: cursive;
+  background-color: lightskyblue;
+}
+
+.header {
+  height: 100px;
+  display: flex;
+  align-items: center;
+  background-color: white;
+}
+
+.anime {
+  height: 120px;
+}
+
+.container {
+  display: flex;
+}
+
+.sidebar {
+  width: 220px;
+  background-color: lightskyblue;
+}
+
+.sidebar a {
+  display: block;
+  color: blue;
+}
+
+.content {
+  flex: 1;
+  text-align: center;
+  background-color: lightskyblue;
+}
+
+table {
+  width: 90%;
+  border-collapse: collapse;
+}
+
+th, td {
+  border: 1px solid black;
+}
+
+.iframe {
+  width: 100%;
+  height: 80vh;
+  border: none;
+}
